@@ -6,7 +6,7 @@ import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { getDatabase, ref as dbRef, update } from "firebase/database"; 
 const FirebaseConrext = createContext(null);
 export const useFirebase = () => useContext(FirebaseConrext);
-
+// Done RJ
 const firebaseConfig = {
   apiKey: "AIzaSyBMCoGsLl3ikWB5s8M-2-LGxJCVvu_x4z0",
   authDomain: "polaris-5c2b4.firebaseapp.com",
